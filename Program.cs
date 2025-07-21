@@ -8,6 +8,12 @@ partial class Program
         // Variables();
         // Datatypes();
         // ShowNumericTypes();
-        ShowStringType();
+        // ShowStringType();
+        // SalesReport();
+        // SalaryCalc();
+        // SalaryCalc();
+        // ShowTime();
+        // DayOfLife();
+        DaysUntilNextBirthday();
     }
 }
