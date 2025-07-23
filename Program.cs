@@ -14,6 +14,7 @@ partial class Program
         // SalaryCalc();
         // ShowTime();
         // DayOfLife();
-        DaysUntilNextBirthday();
+        // DaysUntilNextBirthday();
+        TypeDifference();
     }
 }
