@@ -15,6 +15,9 @@ partial class Program
         // ShowTime();
         // DayOfLife();
         // DaysUntilNextBirthday();
-        TypeDifference();
+        // TypeDifference();
+        // Operators();
+        // Arrays();
+        InventoryManager();
     }
 }

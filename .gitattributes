@@ -1,0 +1,38 @@
+# Establecer comportamiento general: Git convierte automáticamente CRLF <-> LF
+* text=auto
+
+# Archivos de código fuente (usar LF en el repo)
+*.cs     text eol=lf
+*.js     text eol=lf
+*.ts     text eol=lf
+*.py     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+
+# Archivos de documentación
+*.md     text eol=lf
+*.txt    text eol=lf
+
+# Archivos de configuración
+*.editorconfig  text eol=lf
+*.gitattributes text eol=lf
+*.gitignore     text eol=lf
+
+# Scripts
+*.sh     text eol=lf
+*.ps1    text eol=lf
+
+# Desactivar conversión para binarios
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.dll    binary
+*.exe    binary
