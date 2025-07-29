@@ -18,6 +18,7 @@ partial class Program
         // TypeDifference();
         // Operators();
         // Arrays();
-        InventoryManager();
+        // InventoryManagerMenu();
+        ListDictionary();
     }
 }
