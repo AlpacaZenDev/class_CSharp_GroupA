@@ -8,11 +8,11 @@ partial class Program
     {
         string[] names = { "Juan", "Luis", "Diana", "Jonh" };
         int[] numbers = { 1, 2, 3 };
-        System.Console.WriteLine($"Longitud del arreglo numérico: {GetIntArrayLength(numbers)}");
-        System.Console.WriteLine($"Longitud del arreglo nombres: {GetStringArrayLength(names)}");
+        WriteLine($"Longitud del arreglo numérico: {GetIntArrayLength(numbers)}");
+        WriteLine($"Longitud del arreglo nombres: {GetStringArrayLength(names)}");
 
-        System.Console.WriteLine($"Longitud del arreglo genérico {GetArrayLength(numbers)}");
-        System.Console.WriteLine($"longitud del arreglo genérico {GetArrayLength(names)}");
+        WriteLine($"Longitud del arreglo genérico {GetArrayLength(numbers)}");
+        WriteLine($"longitud del arreglo genérico {GetArrayLength(names)}");
 
         Box<int> numberBox = new Box<int> { Content = 50 };
         Box<string> stringBox = new Box<string> { Content = "Texto" };
@@ -44,7 +44,7 @@ partial class Program
         public T? Content { get; set; }
         public void Show()
         {
-            System.Console.WriteLine($"Contenido: {Content}");
+            WriteLine($"Contenido: {Content}");
         }
     }
 

@@ -21,6 +21,9 @@ partial class Program
         // InventoryManagerMenu();
         // ListDictionary();
         // DataStructures();
-        Generics();
+        // Generics();
+        // Conditional();
+        // Loops();
+        FizzBuzz();
     }
 }
