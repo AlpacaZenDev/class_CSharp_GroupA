@@ -5,6 +5,7 @@ partial class Program
     static void Main(string[] args)
     {
         Console.WriteLine("######### Resultados: #########");
+        #region Seasson 01
         // Variables();
         // Datatypes();
         // ShowNumericTypes();
@@ -22,8 +23,14 @@ partial class Program
         // ListDictionary();
         // DataStructures();
         // Generics();
+        #endregion
+
+        #region Seasson 02
         // Conditional();
         // Loops();
-        FizzBuzz();
+        // FizzBuzz();
+        LoopControlExamples();
+
+        #endregion
     }
 }
