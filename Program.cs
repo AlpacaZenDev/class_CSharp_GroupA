@@ -29,7 +29,12 @@ partial class Program
         // Conditional();
         // Loops();
         // FizzBuzz();
-        LoopControlExamples();
+        // LoopControlExamples();
+        // LoopGame(); __BAD
+        // Convertions();
+        // ConvertionToDateTime();
+        // Functions();
+        MultiplicationTable();
 
         #endregion
     }
