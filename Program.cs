@@ -34,7 +34,9 @@ partial class Program
         // Convertions();
         // ConvertionToDateTime();
         // Functions();
-        MultiplicationTable();
+        // MultiplicationTable();
+        // FactorialTable();
+        Tuples();
 
         #endregion
     }
