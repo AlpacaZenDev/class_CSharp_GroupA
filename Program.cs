@@ -37,7 +37,12 @@ partial class Program
         // MultiplicationTable();
         // FactorialTable();
         // Tuples();
-        AnonymousFunctions();
+        // AnonymousFunctions();
+        #endregion
+
+        #region Seasson 03
+        // TestingClass();
+        Properties();
 
         #endregion
     }
