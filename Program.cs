@@ -36,7 +36,8 @@ partial class Program
         // Functions();
         // MultiplicationTable();
         // FactorialTable();
-        Tuples();
+        // Tuples();
+        AnonymousFunctions();
 
         #endregion
     }
