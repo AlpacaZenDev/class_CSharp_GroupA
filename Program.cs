@@ -42,7 +42,15 @@ partial class Program
 
         #region Seasson 03
         // TestingClass();
-        Properties();
+        // Properties();
+        // Methods();
+        // Forzar la recolección de basura
+        // GC.Collect();
+        // GC.WaitForPendingFinalizers();
+        // ProductSalesDemo();
+        // BusFleet();
+        // Inheritance();
+        AbstractClassExamples();
 
         #endregion
     }
