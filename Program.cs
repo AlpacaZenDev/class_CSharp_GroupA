@@ -53,8 +53,12 @@ partial class Program
         // BusFleet();
         // Inheritance();
         // AbstractClassExamples();
-        Visibility();
+        // Visibility();
+        #endregion
 
+        #region Seasson 04
+        HandleException();
+        
         #endregion
     }
 }

@@ -66,6 +66,7 @@ class Jedi: IForceUse
 
 class Sith : Jedi, IForceUse
 {
+    public void UseForce
     public void ShowProtected()
     {
         System.Console.WriteLine(ProtectedField);
