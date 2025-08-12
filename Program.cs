@@ -1,5 +1,7 @@
 ﻿
 
+using System.Runtime.InteropServices.Marshalling;
+
 partial class Program
 {
     static void Main(string[] args)
@@ -50,7 +52,8 @@ partial class Program
         // ProductSalesDemo();
         // BusFleet();
         // Inheritance();
-        AbstractClassExamples();
+        // AbstractClassExamples();
+        Visibility();
 
         #endregion
     }
