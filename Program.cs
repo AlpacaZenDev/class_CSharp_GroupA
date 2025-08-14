@@ -57,7 +57,8 @@ partial class Program
         #endregion
 
         #region Seasson 04
-        HandleException();
+        // HandleException();
+        Linq();
         
         #endregion
     }
